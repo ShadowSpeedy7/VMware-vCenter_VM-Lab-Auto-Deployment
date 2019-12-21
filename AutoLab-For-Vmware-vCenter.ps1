@@ -71,3 +71,4 @@ if ($Action -eq "A") {
 }
 
 Disconnect-VIServer -Server $vCenterIP -Force -Confirm:$false
+pause
